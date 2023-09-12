@@ -6,7 +6,18 @@
 	</head>
 
 	<body>
-		{% include "templates/header.html" %}
+		<header>
+			<h1>Navigation.</h1>
+			<nav>
+				<ul>
+					<li><a href="https://domain.whatever">Home (current page)</a></li>
+					<li><a href="http://domain.whatever/advisors.html">Our Advisors</a></li>
+					<li><a href="http://domain.whatever/goals.html">Our Goals</a></li>
+					<li><a href="http://domain.whatever/journals.html">Journals and Research Papers</a></li>
+					<li><a href="http://domain.whatever/timeline.html">Project Timeline</a></li>
+				</ul>
+			</nav>
+		</header>
 		<main>
 			<h1>Welcome.</h1>
 			<h2>About us.</h2>
@@ -21,6 +32,8 @@
 				<li>And much, much more.</li>
 			</ul>
 		</main>
-		{% include "templates/footer.html" %}
+		<footer>
+		<p>Copyright &copy; 2023.</p>
+		</footer>
 	</body>
 </html>

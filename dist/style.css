@@ -14,6 +14,7 @@
 
 .navbar li {
     margin-right: 20px;
+    list-style: none;
 }
 
 .navbar a {
@@ -30,3 +31,29 @@
     background-color: #fff;
     color: #333;
 }
+
+.visualhide {
+    position: absolute;
+    left: -999px;
+
+}
+
+.titlebar {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+}
+.titlebar img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+* {
+    font-family: 'Comic Neue', Cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

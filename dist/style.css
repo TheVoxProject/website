@@ -1,91 +1,91 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
+	display: flex;
+	list-style: none;
 }
 
 .navbar li {
-    margin-right: 20px;
-    list-style: none;
+	margin-right: 20px;
+	list-style: none;
 }
 
 .navbar a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 10px;
-    border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .navbar a:hover {
-    background-color: #fff;
-    color: #333;
+	background-color: #fff;
+	color: #333;
 }
 
 .visualhide {
-    position: absolute;
-    left: -999px;
-
+	position: absolute;
+	left: -999px;
 }
 
 .titlebar {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
 }
+
 .titlebar img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
 }
 
 header {
-    background-color: #333;
+	background-color: #333;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    align-self: self-end;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	align-self: self-end;
 }
 
 main {
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 main h2 {
-    text-align: center;
+	text-align: center;
 }
+
 main h1 {
-    text-align: center;
+	text-align: center;
 }
 
 main p {
-    text-align: center;
+	text-align: center;
 }
-
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

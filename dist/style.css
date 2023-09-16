@@ -5,6 +5,8 @@
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .navbar ul {
@@ -67,13 +69,13 @@ main {
 	margin-left: 15%;
 	margin-right: 15%;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Comic Neue', cursive;
 }
 
 main h2 {
@@ -86,6 +88,14 @@ main h1 {
 
 main p {
 	text-align: center;
+}
+
+main iframe {
+    margin-left: -7.5%;
+    margin-right: 2.5%;
+    margin-bottom: 25px;
+    width: 115%;
+    height: 600px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

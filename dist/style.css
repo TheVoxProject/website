@@ -46,6 +46,7 @@
 	background-color: #333;
 	color: #fff;
 	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .titlebar img {
@@ -69,13 +70,13 @@ main {
 	margin-left: 15%;
 	margin-right: 15%;
 	padding: 0;
-	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Comic Neue', cursive;
+	/*font-family: 'Comic Neue', cursive;*/
 }
 
 main h2 {
@@ -96,6 +97,28 @@ main iframe {
     margin-bottom: 25px;
     width: 115%;
     height: 600px;
+}
+
+.timeline thead {
+	background-color: #333;
+	color: #fff;
+}
+
+.timeline thead th {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.timeline tbody {
+	background-color: #fff;
+	color: #333;
+}
+
+.timeline td {
+	background-color: #fff;
+	color: #333;
+	min-width: 300px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

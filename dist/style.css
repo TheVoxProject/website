@@ -57,6 +57,46 @@
 	margin-right: 20px;
 }
 
+.advisorRow {
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.advisorText {
+	margin-left: 20px;
+	flex: 50%;
+}
+
+.advisorText p {
+	padding: 0px;
+	/*align to the left*/
+	text-align: left;
+}
+
+.advisorText h2 {
+	padding: 0px;
+
+	/*align to the left*/
+	text-align: left;
+}
+
+.advisorPhoto {
+	flex: 50%;
+}
+
+.advisorPhoto img {
+	width: 150px;
+	height: 150px;
+	/*center the image*/
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
 header {
 	background-color: #333;
 }

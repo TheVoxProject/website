@@ -95,6 +95,9 @@
 	margin-right: auto;
 	display: block;
 
+	object-fit: cover;
+
+
 }
 
 header {

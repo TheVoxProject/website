@@ -13,7 +13,7 @@ python3 sheetable.py "$URL" -o "${OUTPUT_DIR}timeline.html"
 # Process the HTML files
 for file in *.html; do
     echo "Processing file: $file"
-    python3 genify.py -i "$file" -t "${OUTPUT_DIR}footer.html" -t "${OUTPUT_DIR}header.html" -t "${OUTPUT_DIR}timeline.html"
+    python3 genify.py -i "$file" -t "${OUTPUT_DIR}footer.html" -t "${OUTPUT_DIR}header.html" -t "${OUTPUT_DIR}timeline.html" -t "${OUTPUT_DIR}meta.html"
 done
 
 # Pause (optional)

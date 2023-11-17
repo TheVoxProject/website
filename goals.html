@@ -19,12 +19,13 @@
 				<li>Research closed loop audio jacks and microcontroller configuration by end of Thursday</li>
 				<li>Begin KiCAD tutorial and start PCB design by end of Thursday</li>
 			</ul>
-			<br />
 			<h2>Software goals</h2>
 			<ul>
-				<li>Began implementing the calculator storing the history.</li>
-				<li>Convert the character speaking function to use a map of strings.</li>
+				<li>Fix loads of driver problems and upgrade development environment. Completed</li>
+				<li>Convert the character speaking function to use a map of strings to chars. Completed</li>
+				<li>Implement basic expression evaluation using Tinyexpr. Completed</li>
 			</ul>
+			<br />
 			<h1>Week 3</h1>
 			<h2>Hardware Goals</h2>
 			<ul>
@@ -40,9 +41,9 @@
 			</ul>
 			<h2>Software goals</h2>
 			<ul>
-				<li>Map all the buttons to actual functions.</li>
-				<li>Start on storing the equation history.</li>
-				<li>Implement a function that converts mathematical symbols into English equivalents.</li>
+				<li>Map all the buttons to actual functions. Completed</li>
+				<li>Store the current equation and history. Completed</li>
+				<li>Implement a function that converts mathematical symbols into English equivalents. Completed</li>
 			</ul>
 			<br />
 			<h1>Week 2</h1>
@@ -53,8 +54,12 @@
 			</ul>
 			<h2>Software goals</h2>
 			<ul>
-				<li>Fix any build errors with submodules and make the build scripts platform-agnostic by the end of Tuesday.</li>
-				<li>Begin writing speech handler class by the end of Thursday.</li>
+				<li>Fix any build errors with submodules and make the build scripts platform-agnostic by the end of Tuesday. Completed</li>
+				<li>Begin writing speech handler class by the end of Thursday. Diverted</li>
+				<ul>
+					<li>This class just caused include path problems, and Espeak's API is actually nice. I wrapped Espeak init into a function, and now it works quite nicely.</li>
+					<li>I'll have to wrap it eventually for asynchronous speech and interrupts, but an entire class was overkill.</li>
+				</ul>
 			</ul>
 			<br />
 			<h1>Week 1</h1>
@@ -66,9 +71,9 @@
 			</ul>
 			<h2>Software Goals</h2>
 			<ul>
-				<li>Install and configure the PlatformIO CLI, as well as CMake and a few other C++ build tools.</li>
-				<li>Initialize the project.</li>
-				<li>Bootstrap the GitHub repository.</li>
+				<li>Install and configure the PlatformIO CLI, as well as CMake and a few other C++ build tools. Completed.</li>
+				<li>Initialize the project. Completed</li>
+				<li>Bootstrap the GitHub repository. Completed</li>
 			</ul>
 		</main>
 		

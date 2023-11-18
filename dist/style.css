@@ -136,6 +136,10 @@ main p {
 	text-align: center;
 }
 
+main h3 {
+	text-align: center;
+}
+
 main iframe {
     margin-left: -7.5%;
     margin-right: 2.5%;

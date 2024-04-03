@@ -5,35 +5,26 @@
 
 .navbar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	background-color: var(--dark);
 	color: var(--light);
-	padding: 10px;
-	padding-left: 7%;
-	padding-right: 7%;
-}
-
-.navbar ul {
-	display: flex;
-	list-style: none;
+	padding: 10px 0 20px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar li {
-	margin-right: 20px;
+	margin-inline: 5px;
 	list-style: none;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
 	color: var(--light);
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px;
-	border-radius: 5px;
 }
 
 .navbar a:hover {
@@ -48,8 +39,8 @@
 
 .titlebar {
 	display: flex;
-	justify-content: left;
-	align-items: left;
+	justify-content: center;
+	align-items: center;
 	background-color: var(--dark);
 	color: var(--light);
 	padding: 10px;
@@ -158,6 +149,7 @@ main iframe {
 	color: var(--light);
 }
 
+
 .timeline thead th {
 	background-color: var(--dark);
 	color: var(--light);
@@ -174,6 +166,26 @@ main iframe {
 	color: var(--dark);
 	min-width: 300px;
 }
+
+table {
+	margin-bottom: 50px;
+}
+
+thead {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+thead tr th {
+	text-align: center;
+	padding-inline: 10px;
+}
+
+tbody td {
+	font-size: .9rem;
+	padding: 5px;
+}
+
 
 .goal {
 	display: grid;

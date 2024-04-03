@@ -1,257 +1,292 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="icon" href="assets/favicon.ico" />
-		<meta charset="utf-8" />
-		<meta name="description" content="Weekly Goals for the CalcVox project">
-		{% include "templates/meta.html" %}
-		<title>CalcVox - Goals</title>
-	</head>
 
-	<body>
-		{% include "templates/header.html" %}
-		<main>
-			<h1>Week 17</h1>
-			<h2>Software</h2></h2>
-			<ul>
-				<li>Add repeat key functionality, and reorganize/optimize code.</li>
-				<li>Work on presentation.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Figure out Presentation organization</li>
-				<li>Finish up the case</li>
-			</ul>
-			<br />
-			<h1>Week 16</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Polish up the new input layer code, and start intigrating menus.</li>
-				<li>Write a complete history system, complete with searching, indexing, and using modern C++.</li>
-				<li>Start on a project wiki, to document all aspects of the project.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Finish button surfaces.</li>
-				<li>Print out Test.</li>
-				<li>Start on Presentation.</li>
-			</ul>
-			<br />
-			<h1>Week 15</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Rewrite input layer to allow for more modular code, and more systems.</li>
-				<li>Majorly clean up the code and attack some nasty technical debt.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Continue to work on case. Completed</li>
-				<li>Assembly PCB and get it working. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 14</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Fix more bugs, primarily related to decimals crashing the calculator when used in exponents and when missing trailing zeros.</li>
-				<li>Research how to intigrate menu code into main Arduino loop() function.</li>
-				<li>Work on Journal 4.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Work on battery case and research buttons textures</li>
-				<li>Meet and order PCB.</li>
-				<li>Work on journal</li>
-			</ul>
-			<br />
-			<h1>Week 13</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Fix a few remaining bugs in Evox, the expression evaluator.</li>
-				<li>Research CAS (Computer Algebra Systems).</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Export 3D Model from KiCAD and Import into Fusion</li>
-				<li>Learn how to design a snap fit case.</li>
-			</ul>
-			<br />
-			<h1>Week 12</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Meet with advisor.</li>
-				<li>Work more on core calculator components.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Finish Video</li>
-				<li>Meet with advisor</li>
-			</ul>
-			<br />
-			<h1>Week 11</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Write a basic outline of a menu system.</li>
-				<li>Fix a few bugs in the expression evaluator.</li>
-			</ul>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Begin designing the PCB. Completed</li>
-				<li>Finish and document PCB.</li>
-			</ul>
-			<br />
-			<h1>Week 10</h1>
-			<h2>Software</h2>
-			<ul>
-				<li>Write super basic expression evaluator that supports the basic mathematical functions in C++. Completed</li>
-				<li>Build more components for the higher-level calculator interface (e.g. menus, history, etc.).</li>
-				<li>Work on next journal.</li>
-			</ul>
-			<h2>Hardware Goals</h2>
-			<ul>
-				<li>Fix code for rotary encoder. Completed</li>
-				<li>Create Schematic of breadboard design. Completed.</li>
-				<li>Test Speakers on breadboard. Completed.</li>
-			</ul>
-			<br />
-			<h1>Week 9.5</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Build Prototype on Breadboard and update code accordingly. Completed</li>
-				<li>Research powering ESP off of Teensy. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 9</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Create Socketed ESP32 TTS prototype on protoboard. Did Not Complete.</li>
-				<li>Work on mid-year project presentation. Completed.</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Begin making the speech chip's protocol conform to the protocol of the Doubletalk LT, a hardware speech synthesizer commonly used by many other blind people.</li>
-				<li>Work on mid-year presentations.</li>
-			</ul>
-			<br />
-			<h1>Week 8</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Research Cheaper ESP devices. Completed</li>
-				<li>Get ESP TTS working with serial between Teensy and ESP. Completed</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Port the prototype code to use Talkie. Goal changed, now using standalone speech chip.</li>
-				<li>Assist with firmware of deticated  speech chip. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 7</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Have meeting with advisors on Monday. Completed</li>
-				<li>Help with switch to Flite tts provider on Wednesday</li>
-				<li>Work on Journal 2 on Friday</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Meet with advisors in-person on Monday. Completed</li>
-				<li>Port the software to use Flite as a text-to-speech provider by the end of Wednesday. Completed</li>
-				<li>Work on Journal 2 and debug hardware problems by the end of Friday.</li>
-			</ul>
-			<br />
-			<h1>Week 6</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Debug new H1 hardware. Incomplete</li>
-				<li>Continue modeling buttons. Deferred</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Implement different audio stream types for different versions of the hardware.</li>
-				<li>Debug the software on our new H1 hardware.</li>
-			</ul>
-			<br />
-			<h1>Week 5</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Test speakers by end of Monday. Completed</li>
-				<li>Finish digitizing sketch of calculator by end of Monday. Completed</li>
-				<li>Continue PCB Design and get button layout by end of Wednesday. Completed</li>
-				<li>Polish PCB Design by end of Friday. Completed</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Round the tinyexpr result to two decimal places using C++ streams by the end of Monday. Completed</li>
-				<li>Implement support for multiple pin layouts using #define statements by the end of Monday. Completed</li>
-				<li>Implement clearing the entire equation with a button press by the end of Wednesday. Completed</li>
-				<li>Implement deletion by character by the end of Friday. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 4</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Begin planning button layout in google sheets and confirm with Ty by end of Tuesday. Completed</li>
-				<li>Research closed loop audio jacks and microcontroller configuration by end of Thursday. Completed</li>
-				<li>Begin KiCAD tutorial and start PCB design by end of Thursday. Completed</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Fix loads of driver problems and upgrade development environment. Completed</li>
-				<li>Convert the character speaking function to use a map of strings to chars. Completed</li>
-				<li>Implement basic expression evaluation using Tinyexpr. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 3</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Test dedicated audio hardware and ensure stereo output by end of Monday. Completed on Wednesday. </li>
+<head>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="assets/favicon.ico" />
+	<meta charset="utf-8" />
+	<meta name="description" content="Weekly Goals for the CalcVox project">
+	{% include "templates/meta.html" %}
+	<title>CalcVox - Goals</title>
+</head>
+
+<body>
+	{% include "templates/header.html" %}
+	<main>
+		<div class="goals">
+			<div class="goal">
+				<h1>Week 17</h1>
+				<h2>Software</h2>
 				<ul>
-					<li>Struggled with getting a clean sine wave out of the I2S DAC through the ESP32</li>
-					<li>Determined that the issue was a bad ground and made a designated prototype to fix that issue</li>
-					<li>Set the logging level from "INFO" to "WARNING" which helped releave the issue</li>
-					<li><a href="https://youtube.com/shorts/F56wUFiFHcc?si=vUg13tfm0KqgjW8e">More detail is in this video</a></li>
+					<li>Add repeat key functionality, and reorganize/optimize code.</li>
+					<li>Work on presentation.</li>
 				</ul>
-				<li>Begin planning button layout in google sheets and confirm with Ty by end of Wednesday. Deferred to next week</li>
-				<li>Begin KiCAD tutorial and start PCB design by end of Friday. Deferred to next week</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Map all the buttons to actual functions. Completed</li>
-				<li>Store the current equation and history. Completed</li>
-				<li>Implement a function that converts mathematical symbols into English equivalents. Completed</li>
-			</ul>
-			<br />
-			<h1>Week 2</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Ensure prototype can use matrix input and audio output by end of Tuesday. Completed</li>
-				<li>Begin researching external audio hardware to be used with Espeak. Completed</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Fix any build errors with submodules and make the build scripts platform-agnostic by the end of Tuesday. Completed</li>
-				<li>Begin writing speech handler class by the end of Thursday. Diverted</li>
+				<h2>Hardware</h2>
 				<ul>
-					<li>This class just caused include path problems, and Espeak's API is actually nice. I wrapped Espeak init into a function, and now it works quite nicely.</li>
-					<li>I'll have to wrap it eventually for asynchronous speech and interrupts, but an entire class was overkill.</li>
+					<li>Figure out Presentation organization</li>
+					<li>Finish up the case</li>
 				</ul>
-			</ul>
-			<br />
-			<h1>Week 1</h1>
-			<h2>Hardware</h2>
-			<ul>
-				<li>Test to ensure ePulse Feather ESP32 modules work by end of Monday. Completed</li>
-				<li>Research audio out on ESP32 using Arduino Audio Tools by Wednesday. Completed</li>
-				<li>Get functioning audio working by end of Friday. Completed</li>
-			</ul>
-			<h2>Software</h2>
-			<ul>
-				<li>Install and configure the PlatformIO CLI, as well as CMake and a few other C++ build tools. Completed.</li>
-				<li>Initialize the project. Completed</li>
-				<li>Bootstrap the GitHub repository. Completed</li>
-			</ul>
-		</main>
-		
-		{% include "templates/footer.html" %}
-	</body>
+			</div>
+			<div class="goal">
+				<h1>Week 16</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Polish up the new input layer code, and start intigrating menus.</li>
+					<li>Write a complete history system, complete with searching, indexing, and using modern C++.</li>
+					<li>Start on a project wiki, to document all aspects of the project.</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Finish button surfaces.</li>
+					<li>Print out Test.</li>
+					<li>Start on Presentation.</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 15</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Rewrite input layer to allow for more modular code, and more systems.</li>
+					<li>Majorly clean up the code and attack some nasty technical debt.</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Continue to work on case. Completed</li>
+					<li>Assembly PCB and get it working. Completed</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 14</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Fix more bugs, primarily related to decimals crashing the calculator when used in exponents and when missing trailing zeros.</li>
+					<li>Research how to intigrate menu code into main Arduino loop() function.</li>
+					<li>Work on Journal 4.</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Work on battery case and research buttons textures</li>
+					<li>Meet and order PCB.</li>
+					<li>Work on journal</li>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 13</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Fix a few remaining bugs in Evox, the expression evaluator.</li>
+					<li>Research CAS (Computer Algebra Systems).</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Export 3D Model from KiCAD and Import into Fusion</li>
+					<li>Learn how to design a snap fit case.</li>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 12</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Meet with advisor.</li>
+					<li>Work more on core calculator components.</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Finish Video</li>
+					<li>Meet with advisor</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 11</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Write a basic outline of a menu system.</li>
+					<li>Fix a few bugs in the expression evaluator.</li>
+				</ul>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Begin designing the PCB. Completed</li>
+					<li>Finish and document PCB.</li>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 10</h1>
+				<h2>Software</h2>
+				<ul>
+					<li>Write super basic expression evaluator that supports the basic mathematical functions in C++. Completed</li>
+					<li>Build more components for the higher-level calculator interface (e.g. menus, history, etc.).</li>
+					<li>Work on next journal.</li>
+				</ul>
+				<h2>Hardware Goals</h2>
+				<ul>
+					<li>Fix code for rotary encoder. Completed</li>
+					<li>Create Schematic of breadboard design. Completed.</li>
+					<li>Test Speakers on breadboard. Completed.</li>
+				</ul>
+			</div>
+
+			<div class="goal">
+				<h1>Week 9.5</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Build Prototype on Breadboard and update code accordingly. Completed</li>
+					<li>Research powering ESP off of Teensy. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul> </ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 9</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Create Socketed ESP32 TTS prototype on protoboard. Did Not Complete.</li>
+					<li>Work on mid-year project presentation. Completed.</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Begin making the speech chip's protocol conform to the protocol of the Doubletalk LT, a hardware speech synthesizer commonly used by many other blind people.</li>
+					<li>Work on mid-year presentations.</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 8</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Research Cheaper ESP devices. Completed</li>
+					<li>Get ESP TTS working with serial between Teensy and ESP. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Port the prototype code to use Talkie. Goal changed, now using standalone speech chip.</li>
+					<li>Assist with firmware of deticated speech chip. Completed</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 7</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Have meeting with advisors on Monday. Completed</li>
+					<li>Help with switch to Flite tts provider on Wednesday</li>
+					<li>Work on Journal 2 on Friday</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Meet with advisors in-person on Monday. Completed</li>
+					<li>Port the software to use Flite as a text-to-speech provider by the end of Wednesday. Completed</li>
+					<li>Work on Journal 2 and debug hardware problems by the end of Friday.</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 6</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Debug new H1 hardware. Incomplete</li>
+					<li>Continue modeling buttons. Deferred</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Implement different audio stream types for different versions of the hardware.</li>
+					<li>Debug the software on our new H1 hardware.</li>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 5</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Test speakers by end of Monday. Completed</li>
+					<li>Finish digitizing sketch of calculator by end of Monday. Completed</li>
+					<li>Continue PCB Design and get button layout by end of Wednesday. Completed</li>
+					<li>Polish PCB Design by end of Friday. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Round the tinyexpr result to two decimal places using C++ streams by the end of Monday. Completed</li>
+					<li>Implement support for multiple pin layouts using #define statements by the end of Monday. Completed</li>
+					<li>Implement clearing the entire equation with a button press by the end of Wednesday. Completed</li>
+					<li>Implement deletion by character by the end of Friday. Completed</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 4</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Begin planning button layout in google sheets and confirm with Ty by end of Tuesday. Completed</li>
+					<li>Research closed loop audio jacks and microcontroller configuration by end of Thursday. Completed</li>
+					<li>Begin KiCAD tutorial and start PCB design by end of Thursday. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Fix loads of driver problems and upgrade development environment. Completed</li>
+					<li>Convert the character speaking function to use a map of strings to chars. Completed</li>
+					<li>Implement basic expression evaluation using Tinyexpr. Completed</li>
+				</ul>
+			</div>
+			<div class="goal">
+
+				<h1>Week 3</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Test dedicated audio hardware and ensure stereo output by end of Monday. Completed on Wednesday. </li>
+					<ul>
+						<li>Struggled with getting a clean sine wave out of the I2S DAC through the ESP32</li>
+						<li>Determined that the issue was a bad ground and made a designated prototype to fix that issue</li>
+						<li>Set the logging level from "INFO" to "WARNING" which helped releave the issue</li>
+						<li><a href="https://youtube.com/shorts/F56wUFiFHcc?si=vUg13tfm0KqgjW8e">More detail is in this video</a></li>
+					</ul>
+					<li>Begin planning button layout in google sheets and confirm with Ty by end of Wednesday. Deferred to next week</li>
+					<li>Begin KiCAD tutorial and start PCB design by end of Friday. Deferred to next week</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Map all the buttons to actual functions. Completed</li>
+					<li>Store the current equation and history. Completed</li>
+					<li>Implement a function that converts mathematical symbols into English equivalents. Completed</li>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 2</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Ensure prototype can use matrix input and audio output by end of Tuesday. Completed</li>
+					<li>Begin researching external audio hardware to be used with Espeak. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Fix any build errors with submodules and make the build scripts platform-agnostic by the end of Tuesday. Completed</li>
+					<li>Begin writing speech handler class by the end of Thursday. Diverted</li>
+					<ul>
+						<li>This class just caused include path problems, and Espeak's API is actually nice. I wrapped Espeak init into a function, and now it works quite nicely.</li>
+						<li>I'll have to wrap it eventually for asynchronous speech and interrupts, but an entire class was overkill.</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="goal">
+				<h1>Week 1</h1>
+				<h2>Hardware</h2>
+				<ul>
+					<li>Test to ensure ePulse Feather ESP32 modules work by end of Monday. Completed</li>
+					<li>Research audio out on ESP32 using Arduino Audio Tools by Wednesday. Completed</li>
+					<li>Get functioning audio working by end of Friday. Completed</li>
+				</ul>
+				<h2>Software</h2>
+				<ul>
+					<li>Install and configure the PlatformIO CLI, as well as CMake and a few other C++ build tools. Completed.</li>
+					<li>Initialize the project. Completed</li>
+					<li>Bootstrap the GitHub repository. Completed</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+
+	{% include "templates/footer.html" %}
+</body>
+
 </html>

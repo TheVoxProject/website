@@ -1,39 +1,35 @@
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #333;
-	color: #fff;
-	padding: 10px;
-    padding-left: 7%;
-    padding-right: 7%;
+:root {
+	--light: #fff;
+	--dark: #333;
 }
 
-.navbar ul {
+.navbar {
 	display: flex;
-	list-style: none;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark);
+	color: var(--light);
+	padding: 10px 0 20px 0;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar li {
-	margin-right: 20px;
+	margin-inline: 5px;
 	list-style: none;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
-	color: #fff;
+	color: var(--light);
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	padding: 10px;
-	border-radius: 5px;
 }
 
 .navbar a:hover {
-	background-color: #fff;
-	color: #333;
+	background-color: var(--light);
+	color: var(--dark);
 }
 
 .visualhide {
@@ -43,10 +39,10 @@
 
 .titlebar {
 	display: flex;
-	justify-content: left;
-	align-items: left;
-	background-color: #333;
-	color: #fff;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark);
+	color: var(--light);
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -101,12 +97,12 @@
 }
 
 header {
-	background-color: #333;
+	background-color: var(--dark);
 }
 
 footer {
-	background-color: #333;
-	color: #fff;
+	background-color: var(--dark);
+	color: var(--light);
 	padding: 10px;
 	align-self: self-end;
 }
@@ -141,33 +137,99 @@ main h3 {
 }
 
 main iframe {
-    margin-left: -7.5%;
-    margin-right: 2.5%;
-    margin-bottom: 25px;
-    width: 115%;
-    height: 600px;
+	margin-left: -7.5%;
+	margin-right: 2.5%;
+	margin-bottom: 25px;
+	width: 115%;
+	height: 600px;
 }
 
 .timeline thead {
-	background-color: #333;
-	color: #fff;
+	background-color: var(--dark);
+	color: var(--light);
 }
 
+
 .timeline thead th {
-	background-color: #333;
-	color: #fff;
+	background-color: var(--dark);
+	color: var(--light);
 	text-align: center;
 }
 
 .timeline tbody {
-	background-color: #fff;
-	color: #333;
+	background-color: var(--light);
+	color: var(--dark);
 }
 
 .timeline td {
-	background-color: #fff;
-	color: #333;
+	background-color: var(--light);
+	color: var(--dark);
 	min-width: 300px;
+}
+
+table {
+	margin-bottom: 50px;
+}
+
+thead {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+thead tr th {
+	text-align: center;
+	padding-inline: 10px;
+}
+
+tbody td {
+	font-size: .9rem;
+	padding: 5px;
+}
+
+
+.goal {
+	display: grid;
+	grid-template-columns: 78px 91px auto;
+	grid-template-rows: auto auto;
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.goal:nth-child(even) {
+	background-color: var(--light);
+	color: var(--dark)
+}
+
+
+.goal h1 {
+	grid-row: span 2;
+	writing-mode: vertical-rl;
+	rotate: 180deg;
+	padding: 10px;
+}
+
+.goal h2 {
+	writing-mode: vertical-rl;
+	rotate: 180deg;
+	padding-inline: 10px;
+	border-bottom: 1px solid;
+	margin: 0;
+}
+
+.goal h2:first-of-type {
+	border-top: 1px solid;
+	border-bottom: none;
+}
+
+.goal ul {
+	border-bottom: 1px solid;
+	margin: 0;
+	padding: 5px;
+}
+
+.goal ul:last-of-type {
+	border-top: 1px solid;
+	border-bottom: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

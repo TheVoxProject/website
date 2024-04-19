@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html llang="en-US">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="assets/favicon.ico" />
+		<meta charset="utf-8" />
+		<meta name="description" content="List of videos for the CalcVox project">
+		{% include "templates/meta.html" %}
+		<Title>CalcVox - Showcase</title>
+	</head>
+
+	<body>
+		{% include "templates/header.html" %}
+		<main>
+			<h1>Showcase.</h1>
+			<h2>Videos</h2>
+			<dl>
+				<dt><a href="https://youtu.be/tyExkrTdQ5M?si=TKjfg504mtFMMdwn">CalcVox Electronics Explained</a></dt>
+				<dd><p>Here is an explanation of how CalcVox works from an Electronics perspective.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/tyExkrTdQ5M?si=TKjfg504mtFMMdwn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></dd>
+				<dt><a href="https://www.youtube.com/shorts/QySySiYNDYk">CalcVox Breadboard Demo - 2/8/24</a></dt>
+				<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/QySySiYNDYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></dd>
+				<dt><a href="https://www.youtube.com/embed/LWB4F7O7J08?si=zzYSWv7LeXJaBJQV">CalcVox Featured on 9 NEWS Denver!</a></dt>
+				<dd><iframe width="560" height="315" src="https://www.youtube.com/embed/LWB4F7O7J08?si=zzYSWv7LeXJaBJQV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></dd>
+				<dt><a href="https://youtube.com/shorts/F56wUFiFHcc?si=vUg13tfm0KqgjW8e">Roadblock: ESP32 I2S DAC Issues - 11/8/23</a></dt>
+				<dd><p>Since Monday, I have been working to get audio output working with the ESP and I finally figured out the issues. This only set me back about a day so overall pretty successful.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/F56wUFiFHcc?si=vUg13tfm0KqgjW8e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></dd>
+			</dl>
+		</main>
+		{% include "templates/footer.html" %}
+	</body>
+</html>

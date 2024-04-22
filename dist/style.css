@@ -232,4 +232,9 @@ tbody td {
 	border-bottom: none;
 }
 
+dt {
+	text-align: center;
+	font-size: 30px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');

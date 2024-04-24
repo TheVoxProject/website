@@ -1,9 +1,7 @@
 # CalcVox Website
-
 Website for the CalcVox project.
 
 ## Note.
-
 All HTML content is rendered from the root of this repository, using build.bat and [Genify](https://www.github.com/calcvox/genify). As such, never modify the content in the dist folder directly, always modify the HTML in the root then run build.bat.
 
 The HTML is the only thing that gets processed so far though, so everything else can go in the dist folder, which is what gets served to Cloudflare.
